@@ -17,9 +17,9 @@ export const ONEDRIVE_SCOPES = [
                                   'Files.ReadWrite.All'
                                 ];
 export const ONEDRIVE_SCOPES_FOR_TOKEN = 'openid offline_access profile User.Read Files.ReadWrite.All';
-export const DROPBOX_APP_KEY = '7vz8cthduow2sc8';
-export const DROPBOX_APP_SECRET = 'okdbj4ajex9k6ls';
-export const DROPBOX_REDIRECT_URI = 'https://topskilldev2.temboolive.com/callback/dropbox';
+// export const DROPBOX_APP_KEY = '7vz8cthduow2sc8';
+// export const DROPBOX_APP_SECRET = 'okdbj4ajex9k6ls';
+// export const DROPBOX_REDIRECT_URI = 'https://topskilldev2.temboolive.com/callback/dropbox';
 export const TEMPBO_TOKEN = new Buffer(username + ":" + password).toString("base64");
 
 /**

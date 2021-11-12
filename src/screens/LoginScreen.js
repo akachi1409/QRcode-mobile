@@ -164,14 +164,12 @@ class LoginScreen extends Component {
                       onPress={() => this.onLogin()} />
                   </View>
                 </View>
-
-                <View style={styles.bottomView}>
+                {/* <View style={styles.bottomView}>
                   <Label title="or"></Label>
                   <Button title="Register with your email" style={{ marginLeft: 5 }} bold={true} onPress={() => this.onRegister()} />
-                </View>
+                </View> */}
               </View>
             </KeyboardAwareScrollView>
-
           </View>
         </SafeAreaView>
 
